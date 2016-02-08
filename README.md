@@ -180,6 +180,8 @@ Content-Type application/json
 * <b>success</b> —  returns true when successfully registered
 * <b>message</b> — message if any
 
+Help: To run complete test cycle follow the [Testing Guide](https://github.com/appvirality/appvirality-sdk-android/wiki/Testing-Your-Referral-Programs#lets-start-real-testing) from step 8 in the testing Guide.
+
 <H3>Help on other topics:</H3>
 
 Please have a look at our [Wiki page](https://github.com/appvirality/appvirality-sdk-android/wiki)
