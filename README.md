@@ -26,7 +26,7 @@ Content-Type application/json
 {
 "apikey":"763502957c434314b613d42400ac7a7f",
 "privatekey":"8a433343ee8241a10419212415496579",
-"avClick":"ae5751d8f7cc2f87c75ab7fb52eb21cd4d977bf184956a15522339c55eb1713d",
+"avClick":"6vzi9-e3f31",
 "ReferrerCode":"e3f31",
 "EmailId":"myemail@domain.com",
 "AppUserName":"Myname",
@@ -99,7 +99,7 @@ Content-Type application/json
 
 #####<b>Sample Input:</b>
 
-v1/getreferrer/4eb5b6038e6953061522a88342a915bfa2af1567245c34038c2831ee88479ec7
+v1/getreferrer/6vzi9-e3f31
 
 #####<b>Input Parameters:</b>
 
@@ -111,7 +111,7 @@ v1/getreferrer/4eb5b6038e6953061522a88342a915bfa2af1567245c34038c2831ee88479ec7
 {
 "name":"my Name",
 "email":"mymail@domain.com",
-"shortcode":"67bvc",
+"shortcode":"e3f31",
 "profileimage":null,
 "successcode":1
 }
