@@ -180,6 +180,59 @@ Content-Type application/json
 * <b>success</b> —  returns true when successfully registered
 * <b>message</b> — message if any
 
+<H4>Submit Referral Code</H4>
+
+It helps to apply referral code to a user.
+
+<b>Route</b>
+<pre><code>POST /v1/setuserreferrer
+
+Content-Type application/json
+</code></pre>
+
+#####<b>Sample Input:</b>
+
+```json
+{
+"apikey":"7b808b1f969048db8463a4c60091c49b",
+"privatekey":"09726325ed71465191eda4ec006d601b",
+"userkey":"d2d2be61edc8453c8cf8ec3089c9036f",
+"ReferrerCode":"jb2by",
+"avClick":"3xoke-jb2by"
+}   
+```
+<b>NOTE - </b> Query string parameter "avClick" will be available if the user visited the website by clicking on the referral link. This click ID is used to identify the referrer for this user. 
+
+#####<b>Input Parameters:</b>
+
+* <b>apikey</b> —  API Key of the App, get this from Dashboard > App Details
+* <b>privatekey</b> — Private key for API requests, get this from Dashboard > App Details > Change Settings > Advanced Settings
+* <b>userkey</b> —  User key, it's required to make the API calls
+* <b>ReferrerCode</b> — Friend's Referral Code, user will be attributed to his friend when on providing his friend referral code.
+* <b>avClick</b> — AppVirality Click ID, this is query string parameter "avclk" value, this will be available if a user visits your website by clicking on the referral link. If the user is already registered with you don't send this parameter.
+
+#####<b>Sample Response:</b>
+
+```json
+{
+"userkey":"04b5c3779e3d4abbac53a50900d64e78",
+"shareurl":"http:\/\/r.appvirality.com\/67bfc",
+"shortcode":"67bfc",
+"isExistingUser":true,
+"hasReferrer":true,
+"successcode":1
+}
+```
+#####<b>Response Parameters:</b>
+
+* <b>userkey</b> —  User key, it's required to make the API calls
+* <b>shareurl</b> — Email of the Referrer
+* <b>shortcode</b> — Name of the Referrer
+* <b>isExistingUser</b> —  This will be True, if the user is already registered with Appvirality.
+* <b>hasReferrer</b> — This will be "True" if the user has a referrer.
+* <b>successcode</b> — status of the API call, 0 -  Fail & 1 - Success
+
+
 Help: To run complete test cycle follow the [Testing Guide](https://github.com/appvirality/appvirality-sdk-android/wiki/Testing-Your-Referral-Programs#lets-start-real-testing) from step 8 in the testing Guide.
 
 <H3>Help on other topics:</H3>
