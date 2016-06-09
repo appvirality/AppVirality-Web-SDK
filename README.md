@@ -180,7 +180,7 @@ Content-Type application/json
 * <b>success</b> —  returns true when successfully registered
 * <b>message</b> — message if any
 
-<H4>Submit Referral Code</H4>
+<H4> # Submit Referral Code</H4>
 
 It helps to apply referral code at a later stage and not in [registerwebuser API](https://github.com/appvirality/AppVirality-Web-SDK#step-1---generating-referral-link) call.
 
