@@ -240,7 +240,7 @@ Help: To run complete test cycle follow the [Testing Guide](https://github.com/a
 Please have a look at our [Wiki page](https://github.com/appvirality/appvirality-sdk-android/wiki)
 
 1. [Getting Started With AppVirality Android SDK Integration](https://github.com/appvirality/appvirality-sdk-android#integrating-appvirality-into-your-app)
-2. [AppVirality API for referral Growth Hack](https://github.com/appvirality/appvirality-sdk-android/wiki/AppVirality-API)
+2. [AppVirality API for referral Growth Hack](https://github.com/appvirality/AppVirality-API)
 3. [How to Add Test Devices & Test Referral Program](https://github.com/appvirality/appvirality-sdk-android/wiki/Testing-Your-Referral-Programs)
 4. [Using Custom Domain](https://github.com/appvirality/appvirality-sdk-android/wiki/Using-Custom-Domain)
 5. [Init Callback | hasReferrer | getUserKey](https://github.com/appvirality/appvirality-sdk-android/wiki/AppVirality-Init-Callback)
