@@ -128,13 +128,13 @@ v1/getreferrer/6vzi9-e3f31
 
 After successful completion of "registerwebuser" API call, you are ready to send the conversion event.
 
-Please visit the API documentation [STEP - 7](https://github.com/appvirality/appvirality-sdk-android/wiki/AppVirality-API#7-register-conversion-event) on how to Register Conversion event.
+Please visit the API documentation [STEP - 7](https://github.com/appvirality/AppVirality-API#7-register-conversion-event) on how to Register Conversion event.
 
 <H4>STEP 6 - Get Referrer/Friend Balance</H4>
 
 Use this call to check the referrer/friend available balance and under review credits. If the user participated in multiple campaigns, it returns multiple records with reward details for each campaign.
 
-Please visit the API documentation [STEP - 6](https://github.com/appvirality/appvirality-sdk-android/wiki/AppVirality-API#6-get-referrerfriend-balance) on how to get user balance.
+Please visit the API documentation [STEP - 6](https://github.com/appvirality/AppVirality-API#6-get-referrerfriend-balance) on how to get user balance.
 
 <b>Live Sample :</b> [http://referral.appvirality.com/](http://referral.appvirality.com/)
 
