@@ -136,7 +136,7 @@ Use this call to check the referrer/friend available balance and under review cr
 
 Please visit the API documentation [STEP - 6](https://github.com/appvirality/appvirality-sdk-android/wiki/AppVirality-API#6-get-referrerfriend-balance) on how to get user balance.
 
-<b>Live Sample :</b> [http://referral.roi2solutions.com](http://referral.roi2solutions.com)
+<b>Live Sample :</b> [http://referral.appvirality.com/](http://referral.appvirality.com/)
 
 <H4>STEP 7 - Register Email for Testing</H4>
 
@@ -182,7 +182,7 @@ Content-Type application/json
 
 <H4>Submit Referral Code</H4>
 
-It helps to apply referral code to a user.
+It helps to apply referral code at a later stage and not in [registerwebuser API](https://github.com/appvirality/AppVirality-Web-SDK#step-1---generating-referral-link) call.
 
 <b>Route</b>
 <pre><code>POST /v1/setuserreferrer
