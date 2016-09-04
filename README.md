@@ -5,7 +5,7 @@ AppVirality supports web Referral program through API.
 
 Follow the below mentioned steps to run the referral program on Web, using AppVirality API. In order to run a referral program on both web & mobile, kindly use the same APPKEY for all platforms. Referral program on web purely run on user Email ID. To participate in the web referral program, the user must be registered with a valid Email ID and logged in. In case user is not logged in, please prompt him to signup and start referring friends.
 
-<b>Base URL :</b> https://api.appvirality.com
+<b>Base URL :</b> https://api.appvirality.com 
 
 <H4>STEP 1 - Generating Referral Link:</H4>
 
