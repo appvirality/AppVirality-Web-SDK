@@ -7,7 +7,7 @@ Web SDK V1.0 has been deprecated, Please use latest Web SDK V2.0 [http://dev.app
 
 
 **********************************************
-~~
+
 AppVirality Web SDK for Web Referral Program
 
 AppVirality supports web Referral program through API.
@@ -262,4 +262,4 @@ Please have a look at our [Wiki page](https://github.com/appvirality/appvirality
 12. [Optional] [Android Push Notification Configuration](https://github.com/appvirality/appvirality-sdk-android/wiki/Android-Push-Notification-Configuration)
 13. [Optional] [Personalized Welcome Screen](https://github.com/appvirality/appvirality-sdk-android/wiki/Personalized-Welcome-Screen)
 14. [Referral Program on Apps having Login and Logout](https://github.com/appvirality/appvirality-sdk-android/wiki/Referral-Program-on-Apps-having-LogOut-&-LogIn)
-~~
+
