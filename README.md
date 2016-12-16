@@ -7,7 +7,7 @@ Web SDK V1.0 has been deprecated, Please use latest Web SDK V2.0 [http://dev.app
 
 
 **********************************************
-
+~~foo~~
 AppVirality Web SDK for Web Referral Program
 
 AppVirality supports web Referral program through API.
