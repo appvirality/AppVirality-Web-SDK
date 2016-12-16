@@ -1,4 +1,4 @@
-# AppVirality-Web-SDK(Deprecated)
+# (Deprecated)AppVirality-Web-SDK
 
 
 **********************************************
